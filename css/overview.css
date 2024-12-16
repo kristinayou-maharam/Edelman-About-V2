@@ -90,6 +90,12 @@ body{
     margin-top: 10px;
 }
 
+.carousel-img-caption-black{
+    color: #4D4726;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
 .bodycopy-full-width{
     /* background-color: #edede8; */
     padding-top: 120px;
@@ -232,37 +238,39 @@ color: #4D4726;
 
 
 .image-scroll img{
-    width: 100%;
+    width: 21rem;
     padding-left: 10px;
 }
 
 .image-scroll-two img{
-    width: 100%;
+    width: 21rem;
     padding-left: 10px;
 }
 
 .image-scroll{
 margin-top: 50px;
-margin-left: 3vw;
+margin-left: 5%;
 width: 90%;
 margin-bottom: 150px;
 }ƒ
 
 .image-scroll-two{
     margin-top: 50px;
-    margin-left: 3vw;
-    width: 90%;
+    margin-left: 5%;
+    width: 90% !important;
     margin-bottom: 150px;
     }
 
 .slick-prev{
     height: 20px;
-    left: 100px !important;
+    left: -12rem !important;
+    z-index: 100;
 }
 
 .slick-next{
     height: 20px;
-    right: -550px !important;
+    right: -11rem !important;
+    z-index: 100;
 }
 
 
