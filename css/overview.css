@@ -232,34 +232,37 @@ color: #4D4726;
 
 
 .image-scroll img{
-    height: 24vh;
+    width: 100%;
     padding-left: 10px;
 }
 
 .image-scroll-two img{
-    height: 24vh;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .image-scroll{
-margin-top: 120px;
+margin-top: 50px;
 margin-left: 3vw;
 width: 90%;
 margin-bottom: 150px;
-}
+}ƒ
 
 .image-scroll-two{
-    margin-top: 120px;
+    margin-top: 50px;
     margin-left: 3vw;
     width: 90%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     }
 
 .slick-prev{
     height: 20px;
+    left: 100px !important;
 }
 
 .slick-next{
     height: 20px;
+    right: -550px !important;
 }
 
 
@@ -309,7 +312,7 @@ margin-bottom: 150px;
    display: inline-flex;
    width: 100%;
    justify-content: space-between;
-   margin-top: 70px;
+   margin-top: 50px;
   }
 
   #left-half{
