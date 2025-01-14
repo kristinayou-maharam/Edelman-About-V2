@@ -1,3 +1,4 @@
+
 #fleming-joffe{
     background-color: #3c3820;
     padding-top: 50px;
@@ -91,7 +92,7 @@ body{
 }
 
 .carousel-img-caption-black{
-    color: #4D4726;
+    color: white;
     font-size: 12px;
     margin-top: 10px;
 }
@@ -239,7 +240,7 @@ color: #4D4726;
 
 .image-scroll img{
     width: 21rem;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
 .image-scroll-two img{
@@ -319,12 +320,13 @@ margin-bottom: 150px;
   #halfandhalf{
    display: inline-flex;
    width: 100%;
+   gap: 1rem;
    justify-content: space-between;
    margin-top: 50px;
   }
 
   #left-half{
-    width: 49%;
+    width: 50%;
   }
 
   #left-half img{
@@ -332,7 +334,7 @@ margin-bottom: 150px;
   }
 
   #right-half{
-    width: 49%;
+    width: 50%;
   }
 
 
@@ -376,3 +378,30 @@ height: 100vh;
 background-color: white;
 border: 1px solid #4D4726;
   }
+
+#toc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 40%;
+    top: 1rem;
+    z-index: 100;
+    margin-left: 10%;
+    color: #4D4726;
+    transition: ease;
+    transition-delay: color 0.3s ease;
+}
+
+#toc :hover{
+    color: #9ca291;
+    text-decoration: underline;
+    transition: ease;
+    transition-delay: color 0.3s ease;
+}
+
+.live{
+    color: #9ca291;
+
+}
+
