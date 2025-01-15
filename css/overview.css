@@ -37,8 +37,27 @@ h2{
     font-family: "EdelmanChromatic-GrotesqueRegular" !important;
 }
 
-.andy-header{
-    line-height: 1.2;
+h3{
+    color: #3c3820;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: "EdelmanChromatic-GrotesqueRegular" !important;
+}
+
+h4{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-family: "EdelmanChromatic-GrotesqueRegular" !important;
+}
+
+#products{
+    margin-top: -15vh;
+    margin-bottom: 10px;
+}
+
+.collab-header{
+    line-height: 1;
     text-align: left;
     color: #4D4726;
 }
@@ -92,7 +111,7 @@ body{
 }
 
 .carousel-img-caption-black{
-    color: white;
+    color: #4D4726;
     font-size: 12px;
     margin-top: 10px;
 }
@@ -115,8 +134,8 @@ body{
     color: white;
     font-size: 16px;
     line-height: 1.5;
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 
@@ -124,8 +143,8 @@ body{
     color: #4D4726;
     font-size: 16px;
     line-height: 1.5;
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .bodycopy-right p{
@@ -136,10 +155,10 @@ body{
 
 .bodycopy-right{
    width: 45%;
-    margin-left: 40%;
+    margin-left: 36%;
     margin-bottom: 80px;
     margin-top: 100px;
-    border-left: 0.5px solid white;
+    /* border-left: 0.5px solid white; */
     padding-left: 50px;
 
 }
@@ -156,8 +175,14 @@ body{
 .intro-text{
     width: 70%;
     margin-left: 20%;
-    border-left: 1px solid #4D4726;
+    /* border-left: 1px solid #4D4726; */
     padding-left: 50px;
+}
+
+.intro-text p{
+    color: #4D4726;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .bodycopy-left{
@@ -165,7 +190,7 @@ body{
      margin-left: 20%;
      margin-bottom: 80px;
      margin-top: 100px;
-     border-left: 0.5px solid white;
+     /* border-left: 0.5px solid white; */
      padding-left: 50px;
  }
 
@@ -174,7 +199,7 @@ body{
      margin-left: 20%;
      margin-bottom: 80px;
      margin-top: 100px;
-     border-left: 0.5px solid #4D4726;
+     /* border-left: 0.5px solid #4D4726; */
      padding-left: 50px;
  }
 
@@ -185,7 +210,7 @@ body{
      margin-left: 40%;
      margin-bottom: 80px;
      margin-top: 100px;
-     border-left: 0.5px solid #4D4726;
+     /* border-left: 0.5px solid #4D4726; */
      padding-left: 50px;
  }
 
@@ -207,6 +232,8 @@ color: #4D4726;
 
 .black{
     color: #4D4726 !important;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .copy-section{
@@ -240,12 +267,12 @@ color: #4D4726;
 
 .image-scroll img{
     width: 21rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 .image-scroll-two img{
     width: 21rem;
-    padding-left: 10px;
+    padding-left: 0.5rem;
 }
 
 .image-scroll{
@@ -317,12 +344,23 @@ margin-bottom: 150px;
     margin-top: -200px;
   }
 
+  .collab-bio{
+    margin-bottom: 0;
+    margin-top: 0 !important;
+  }
+
   #halfandhalf{
    display: inline-flex;
    width: 100%;
    gap: 1rem;
    justify-content: space-between;
    margin-top: 50px;
+  }
+
+  .history{
+    width: 90% !important;
+    margin-left: 5%;
+    margin-bottom: 50px;
   }
 
   #left-half{
@@ -392,6 +430,11 @@ border: 1px solid #4D4726;
     transition: ease;
     transition-delay: color 0.3s ease;
 }
+.collab{
+    position: absolute !important;
+    display: block;
+    margin-left: 25% !important;
+}
 
 #toc :hover{
     color: #9ca291;
@@ -404,4 +447,117 @@ border: 1px solid #4D4726;
     color: #9ca291;
 
 }
+
+#shortbio{
+    width: 30%;
+    margin-top: 0px;
+    margin-left: 5%;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.collab-name{
+    display: inline-block;
+}
+
+.video-wrapper{
+    margin-top: -200px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+.video-wrapper iframe{
+    width: 100%;
+    height: 56.25vw;
+}
+
+.grid.products {
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+	grid-gap: 1rem;
+}
+
+.grid.products .cell {
+    cursor: pointer;
+}
+
+.grid.products .cell .images-wrapper {
+    position: relative;
+}
+
+.images-wrapper img{
+    width: 100%;
+}
+
+.grid.products .cell .images-wrapper img.listview-image.installation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.25s ease;
+}
+
+.grid.products .cell:hover .images-wrapper img.listview-image.installation {
+    opacity: 1;
+}
+
+.grid.products .cell .description-wrapper {
+    padding: 1rem 0;
+}
+
+.grid.products .cell .description-wrapper .listview-brand,
+.grid.products .cell .description-wrapper h6.listview-product,
+.grid.products .cell .description-wrapper .listview-color,
+.grid.products .cell .description-wrapper .listview-price {
+	font-family: "EdelmanChromatic", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-align: left;
+    color: #000000;
+    line-height: 1.35;
+    margin-bottom: 0;
+    transition: all 0.25s ease;
+}
+
+.grid.products .cell .description-wrapper h6.listview-product {
+	font-family: "EdelmanChromatic", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.grid.products .cell:hover .description-wrapper h6.listview-product {
+	color: #998f4d;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .grid.products {
+    	grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .grid.products {
+    	grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    
+}
+
+@media screen and (min-width: 1256px) {
+    
+    .grid.products {
+    	grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    
+}
+
+
+
+
+
+
+
 
