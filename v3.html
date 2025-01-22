@@ -293,8 +293,6 @@
                     <div id="designstudio">Design Studio</div>
                 </div>
                 <div id="one">
-                <img class="full-width-img" src="images/nb-ilse-campaign-01.jpg">
-                <p class="caption-black">This is the image caption, 2023.,<br>Photography by Nick Ballon.</p>
 
                 <img class="full-width-img" src="images/new/EDMN_Ballon_Edelman_Header.jpg" style="margin-top: 100px;">
                 <p class="caption-black">This is the image caption, 2023.,<br>Photography by Nick Ballon.</p>
@@ -377,10 +375,21 @@
                     <p class="carousel-img-caption">Image Caption.</p>
                     </div>
                     <div>
-                    <img src="images/1962-FlemingJoffe ad for genuine alligator.jpg">
+                        <img src="images/preview-3.jpg">
+                        <p class="carousel-img-caption">Image Caption.</p>
+                        </div>
+                    <div>
+                    <img src="images/EDMN_Archive_space_snakelamp.jpg">
                     <p class="carousel-img-caption">Image Caption.</p>
-                    
                 </div>
+                <div>
+                <img src="images/Fleming-Joffe Exhibit, Andy Warhol Museum, Pittsburg, Pennsylvania.jpg">
+                    <p class="carousel-img-caption">Image Caption.</p>
+                </div>
+                <div>
+                    <img src="images/water-buffalo.jpg">
+                        <p class="carousel-img-caption">Image Caption.</p>
+                    </div>
                 </div>
 
                 <div class="progress-container">
@@ -410,30 +419,14 @@
                 </div>
             </div>
 
+            <div class="bodycopy-full-width">
+                <p class="black">
+                    The Edelmans had an eye for talent and artistry, working alongside creatives including Italian artist and illustrator Piero Fornasetti, textile designer Jack Lenor Larsen, and American artist Andy Warhol, who helped establish their whimsical visual identity as Fleming-Joffe’s graphic designer.
+                </p>
+            </div>
 
-            <img class="full-width-img" src="images/EDMN_Archive_space_snakelamp.jpg">
-            <p class="caption-black">This is the image caption, 2006.,<br>Image courtesy of Edelman Archives.</p>
-
-            <div class="copy-section">
-                <div class="bodycopy-right-black">
-                    <p class="black">
-                        The Edelmans had an eye for talent and artistry, working alongside creatives including Italian artist and illustrator Piero Fornasetti, textile designer Jack Lenor Larsen, and American artist Andy Warhol, who helped establish their whimsical visual identity as Fleming-Joffe’s graphic designer.
-                    </p>
-
-                </div>
-                </div>
-                <img id="andy-illustration" src="images/water-buffalo.jpg">
-                <div id="halfandhalf">
-                    <div id="left-half">
-                    <img src="images/preview-3.jpg">
-                    <p class="caption-black">This is the image caption, 2006.,<br>Image courtesy of Edelman Archives.</p>
-                    </div>
-                    <div id="right-half">
-                    <img src="images/Fleming-Joffe Exhibit, Andy Warhol Museum, Pittsburg, Pennsylvania.jpg">
-                    <p class="caption-black">This is the image caption, 2006.,<br>Image courtesy of Edelman Archives.</p>
-                    </div>
-                </div>
-
+         
+               
         
                 <div id="four">
                 <img class="full-width-img" src="./images/new/EDMN_Ballon_DesignStudio_Header.jpg">
@@ -660,9 +653,10 @@ document.addEventListener('scroll', function() {
 
             $('.image-scroll').slick({
   centerMode: true,
+  variableWidth: true,
   centerPadding: '0px',
   slidesToShow: 3,
-  prevArrow: '<img class="slick-prev" src="./images/icons/prev-green.svg" style="height:20px;">',
+  prevArrow: '<img class="slick-prev" src="./images/icons/prev-green.svg" style="height:20px; !important;">',
   nextArrow: '<img class="slick-next" src="./images/icons/next-green.svg" style="height:20px">',
 
   responsive: [
@@ -686,6 +680,13 @@ document.addEventListener('scroll', function() {
     }
   ]
 });
+
+$('.image-scroll img').on('click', function () {
+        // Remove 'expanded' class from all images except the clicked one
+        $('.slick-carousel img').not(this).removeClass('expanded');
+        // Toggle the 'expanded' class on the clicked image
+        $(this).toggleClass('expanded');
+      });
 
 $('.image-scroll-two').slick({
   centerMode: true,

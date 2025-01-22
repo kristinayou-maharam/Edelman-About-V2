@@ -52,7 +52,7 @@ h4{
 }
 
 #products{
-    margin-top: -15vh;
+    margin-top: -150px;
     margin-bottom: 10px;
 }
 
@@ -108,6 +108,7 @@ body{
     color: white;
     font-size: 12px;
     margin-top: 10px;
+    padding-left: 18px;
 }
 
 .carousel-img-caption-black{
@@ -266,21 +267,30 @@ color: #4D4726;
 
 
 .image-scroll img{
-    width: 21rem;
-    padding-left: 0.5rem;
+    height: 35vh;
+    padding-left: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.image-scroll img .expanded{
+    height: 30vh;
+    z-index: 1000;
+    position: relative;
 }
 
 .image-scroll-two img{
     width: 21rem;
-    padding-left: 0.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
 }
 
 .image-scroll{
 margin-top: 50px;
-margin-left: 5%;
-width: 90%;
+margin-left: 15%;
+width: 70%;
 margin-bottom: 150px;
-}ƒ
+}
 
 .image-scroll-two{
     margin-top: 50px;
@@ -291,13 +301,13 @@ margin-bottom: 150px;
 
 .slick-prev{
     height: 20px;
-    left: -12rem !important;
+    left: -8rem !important;
     z-index: 100;
 }
 
 .slick-next{
-    height: 20px;
-    right: -11rem !important;
+    height: 50px;
+    right: -7rem !important;
     z-index: 100;
 }
 
@@ -422,14 +432,19 @@ border: 1px solid #4D4726;
     flex-direction: row;
     justify-content: space-evenly;
     position: fixed;
-    width: 40%;
+    width: 40vw;
     top: 1rem;
     z-index: 100;
-    margin-left: 10%;
+    margin-left: 20vw;
     color: #4D4726;
     transition: ease;
     transition-delay: color 0.3s ease;
 }
+
+#toc #edelman p{
+    text-align: center;
+}
+
 .collab{
     position: absolute !important;
     display: block;
@@ -470,7 +485,9 @@ border: 1px solid #4D4726;
 
 .video-wrapper iframe{
     width: 100%;
-    height: 56.25vw;
+    height: 60vh;
+    margin-top: 250px;
+    margin-bottom: 250px;
 }
 
 .grid.products {
