@@ -326,6 +326,7 @@ color: #4D4726;
 .image-scroll img{
     width: 95%;
     padding-left: 0.8rem;
+    vertical-align: middle;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -346,7 +347,7 @@ color: #4D4726;
 margin-top: 20vh;
 margin-left: 20%;
 width: 60%;
-margin-bottom: 150px;
+margin-bottom: 100px;
 }
 
 .image-scroll-two{
@@ -358,19 +359,21 @@ margin-bottom: 150px;
 
 .slick-prev{
     height: 20px;
+    margin-top: -50px;
     left: -25rem !important;
     z-index: 100;
 }
 
 .slick-next{
-    height: 50px;
+    height: 20px;
+    margin-top: -50px;
     right: -23rem !important;
     z-index: 100;
 }
 
 
   .progress-container {
-    margin-left: 15%;
+    margin-left: 14%;
     margin-top: -80px;
     width: 70%;
     background-color: #e0e0e0;
