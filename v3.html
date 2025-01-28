@@ -415,12 +415,12 @@
 
                     <div>
                         <img src="images/carousel/fj-fornasetti-plates.jpeg">
-                            <p class="carousel-img-caption">Image from Edelman New York Heritage Page- need permission.</p>
+                            <p class="carousel-img-caption">Image from Edelman New York Heritage Page-<br>need permission.</p>
                         </div>
 
                     <div>
                             <img src="images/carousel/F5-John-Edelman-Fornasetti-expanded.jpg">
-                                <p class="carousel-img-caption">Image from Design Milk- John Edelman Interview - need permission</p>
+                                <p class="carousel-img-caption">Image from Design Milk-<br>John Edelman Interview-<br>need permission</p>
                             </div>
                 </div>
 
@@ -704,6 +704,11 @@ document.addEventListener('scroll', function() {
         $(document).ready(function(){
 
             $('.image-scroll').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                variableWidth: true,
+                centerMode: true,
   prevArrow: '<img class="slick-prev" src="./images/icons/prev-green.svg" style="height:20px; !important;">',
   nextArrow: '<img class="slick-next" src="./images/icons/next-green.svg" style="height:20px">',
 
