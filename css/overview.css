@@ -699,7 +699,40 @@ border: 1px solid #4D4726;
         margin-top: -270px;
         margin-bottom: 300px;  
     }
+
+    .callout{
+        font-size: 20px !important; 
+        width: 70%;
+        margin-left: 5%;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
     
+
+    .slick-prev{
+        height: 20px;
+        margin-top: 0px;
+        left: -5rem !important;
+        z-index: 100;
+    }
+    
+    .slick-next{
+        height: 20px;
+        margin-top: 0px;
+        right: -4rem !important;
+        z-index: 100;
+    }
+
+    .image-scroll{
+        margin-top: 15vh;
+        margin-left: 15%;
+        width: 70%;
+        }
+    
+        .progress-container {
+        width: 70%;
+        margin-left: 15%;
+          }
 }
  
 
