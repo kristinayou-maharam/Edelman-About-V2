@@ -712,6 +712,8 @@ font-size: 16px !important;
 width: 80%;
 margin-left: 10%;
 line-height: 1.5;
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
 .full-width-img{
@@ -758,9 +760,35 @@ line-height: 1.5;
     margin-left: 15%;
 }
 
+.ilse-bio{
+    font-size: 12px;
+}
+
+#collab-header{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 .bodycopy-full-width{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#halfandhalf{
+    display: block;
+    margin-top: 50px;
+}
+
+#left-half{
+    width: 100%;
+}
+
+#right-half{
+    width: 100%;
+}
+
+#toc{
+    display: none;
 }
 
 }
