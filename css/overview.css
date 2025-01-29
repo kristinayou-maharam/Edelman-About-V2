@@ -205,21 +205,6 @@ body{
     margin-left: 25%;
 }
 
-.bodycopy-right p{
-    color: white;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.bodycopy-right{
-   width: 45%;
-    margin-left: 36%;
-    margin-bottom: 80px;
-    margin-top: 100px;
-    /* border-left: 0.5px solid white; */
-    padding-left: 50px;
-
-}
 
 #left-half-andy{
     width: 30%;
@@ -642,22 +627,7 @@ border: 1px solid #4D4726;
     
 }
 
-@media screen and (max-width: 768px) {
 
-    #collab-lefthalf{
-        width: 90%;
-    }
-
-    #collab-righthalf{
-        width: 0%;
-    }
-
-    .video-caption{
-        margin-left: 0px;
-        margin-top: -5vh !important;
-        margin-bottom: 300px;  
-    }
-}
 
 @media screen and (min-width: 1024px) {
     
@@ -735,7 +705,84 @@ border: 1px solid #4D4726;
             margin-top: 100px;
         }
 }
+
+@media screen and (max-width: 425px) {
+.callout{
+font-size: 16px !important;
+width: 80%;
+margin-left: 10%;
+line-height: 1.5;
+}
+
+.full-width-img{
+    height: 60vh;
+    width: auto;
+}
+
+.caption{
+    font-size: 8px;
+}
+
+.caption-black{
+    font-size: 8px;
+}
+
+.carousel-img-caption{
+    font-size: 8px;
+}
+
+.bodycopy-full-width-olive{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bodycopy-full-width-olive p{
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.black{
+    font-size: 12px;
+    width: 70%;
+    line-height: 1.5;
+}
+
+.bodycopy-full-width p{
+    color: #4D4726;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.bodycopy-full-width{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+}
  
+@media screen and (max-width: 768px) {
+
+    #collab-lefthalf{
+        width: 90%;
+    }
+
+    #collab-righthalf{
+        width: 0%;
+    }
+
+    .video-caption{
+        margin-left: 0px;
+        margin-top: -5vh !important;
+        margin-bottom: 300px;  
+    }
+
+
+}
 
 
 
