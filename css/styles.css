@@ -11083,19 +11083,19 @@ header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles {
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo {
-    content:url(../images/svg/edelman-logo.svg)
+    content:url(./images/svg/edelman-logo.svg)
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo::after {
-    content:url(../images/svg/edelman-logo.svg)
+    content:url(./images/svg/edelman-logo.svg)
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo:hover {
-    content:url(../images/svg/edelman-logo-hover.svg)
+    content:url(./images/svg/edelman-logo-hover.svg)
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo:hover::after {
-    content:url(../images/svg/edelman-logo.svg)
+    content:url(./images/svg/edelman-logo.svg)
 }
 
 header.core-site-header .large-nav .main-nav .menu {
@@ -11218,7 +11218,7 @@ header.core-site-header .large-nav .main-nav .search-global ul.autocomplete-opti
 }
 
 header.core-site-header .large-nav .main-nav .search-global ul.autocomplete-options-large li.active a, header.core-site-header .large-nav .main-nav .search-global ul.autocomplete-options-large li.active em {
-    color:#c18610 !important
+    color:#FF0000 !important
 }
 
 header.core-site-header .large-nav .main-nav .search-global ul.autocomplete-options-large li a {
