@@ -619,7 +619,7 @@ margin-bottom: 100px;
 }
 
 .grid.products .cell:hover .description-wrapper h6.listview-product {
-	color: #998f4d;
+	color: #c18610;
 }
 
 @media screen and (min-width: 768px) {
