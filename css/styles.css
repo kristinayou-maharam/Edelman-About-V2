@@ -11083,19 +11083,19 @@ header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles {
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo {
-    content:url(./images/svg/edelman-logo.svg)
+    content:url(../images/edelman-logo-olive.svg)
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo::after {
-    content:url(./images/svg/edelman-logo.svg)
+    content:url(../images/edelman-logo-olive.svg)
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo:hover {
-    content:url(./images/svg/edelman-logo-hover.svg)
+    content:url(../images/edelman-logo-hover.svg)
 }
 
 header.core-site-header .large-nav .main-nav .logo-container.knoll-textiles .logo:hover::after {
-    content:url(./images/svg/edelman-logo.svg)
+    content:url(../images/edelman-logo-olive.svg)
 }
 
 header.core-site-header .large-nav .main-nav .menu {
