@@ -1,6 +1,6 @@
 
 #flemingjoffe{
-    background-color: #3c3820;
+    background-color: #a97e28;
     padding-top: 50px;
     padding-bottom: 100px;
     margin-top: 70px;
@@ -26,13 +26,13 @@ body{
 
 p{
     font-family: 'EdelmanChromatic-GrotesqueRegular' !important;
-    color: #4D4726;
+    color: #000000;
     font-size: 16px;
     line-height: 1.4;
 }
 
 h2{
-    color: #F1EFE1;
+    color: #000000;
     font-size: 3em;
     font-weight: normal;
     text-align: center;
@@ -40,7 +40,7 @@ h2{
 }
 
 h3{
-    color: #3c3820;
+    color: #000000;
     font-size: 2.5em;
     font-weight: normal;
     font-family: "EdelmanChromatic-GrotesqueRegular" !important;
@@ -135,7 +135,7 @@ body{
 }
 
 .caption{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
     line-height: 1.5;
     margin-left: 0%;
@@ -144,7 +144,7 @@ body{
 }
 
 .video-caption{
-    color: #4D4726;
+    color: #000000;
     font-size: 12px;
     line-height: 1.5;
     margin-left: 50px;
@@ -153,7 +153,7 @@ body{
 }
 
 .caption-black{
-    color: #4D4726;
+    color: #000000;
     font-size: 12px;
     line-height: 1.5;
     margin-left: 0%;
@@ -162,14 +162,15 @@ body{
 }
 
 .carousel-img-caption{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
     margin-top: 10px;
     padding-left: 18px;
+    width: 20vw;
 }
 
 .carousel-img-caption-black{
-    color: #4D4726;
+    color: #000000;
     font-size: 12px;
     margin-top: 10px;
 }
@@ -182,14 +183,14 @@ body{
 }
 
 .bodycopy-full-width-olive{
-    background-color: #3c3820;
+    background-color: #a97e28;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 
 .bodycopy-full-width-olive p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     line-height: 1.5;
     width: 50%;
@@ -223,7 +224,7 @@ body{
 }
 
 .intro-text p{
-    color: #4D4726;
+    color: #000000;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -258,23 +259,23 @@ body{
  }
 
  .bodycopy-left-black p{
-    color: #4D4726;
+    color: #000000;
      }
 
  .bodycopy-right-black p{
-color: #4D4726;
+color: #000000;
  }
 
 
 
  .bodycopy-left p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     line-height: 1.5;
 }
 
 .black{
-    color: #4D4726 !important;
+    color: #000000 !important;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -363,7 +364,7 @@ margin-bottom: 100px;
     height: 2px;
     position: absolute;
     left: 0;
-    background-color: #9ca291;
+    background-color: #000000;
     transition: left 0.3s ease; /* Smooth transition */
   }
 
@@ -450,7 +451,7 @@ margin-bottom: 100px;
 
 
   #scroll-to-top p a{
-    text-decoration-color: #4D4726;
+    text-decoration-color: #c18610;
     text-decoration: none !important;
     font-size: 32px;
   }
@@ -458,23 +459,25 @@ margin-bottom: 100px;
 
 
   #scroll-to-top p a:visited{
-    color: #4D4726;
+    color: #c18610;
   }
 
   #scroll-to-top p a:hover{
-    text-decoration-color: #4D4726;
+    text-decoration-color: #c18610;
     text-decoration: none !important;
-    color: #4D4726;
+    color: #c18610;
   }
 
-  #canvas{
-display: block;
-margin-top: 70px;
-width: 100%;
-height: 100vh;
-background-color: white;
-border: 1px solid #4D4726;
-  }
+.ilse-bio p a :hover{
+    color: #c18610 !important; 
+    text-decoration-color: #c18610 !important;
+}
+
+.callout a :hover{
+    color: #c18610 !important; 
+    text-decoration-color: #c18610 !important;
+}
+
 
 #toc-container{
     background-color: rgba(255, 255, 255, 0.3);
@@ -506,7 +509,7 @@ border: 1px solid #4D4726;
     top: 1rem;
     z-index: 200;
     margin-left: 16rem;
-    color: #9ca291;
+    color: #000000;
     transition: ease;
     transition-delay: color 0.3s ease;
 }
@@ -522,14 +525,14 @@ border: 1px solid #4D4726;
 }
 
 #toc :hover{
-    color: #4D4726;
+    color: #c18610;
     text-decoration: underline;
     transition: ease;
     transition-delay: color 0.3s ease;
 }
 
 .live{
-    color: #4D4726;
+    color: #c18610;
     text-decoration: underline;
 
 }
@@ -739,7 +742,7 @@ margin-bottom: 50px;
 }
 
 .bodycopy-full-width-olive p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
     line-height: 1.5;
     width: 70%;
@@ -753,7 +756,7 @@ margin-bottom: 50px;
 }
 
 .bodycopy-full-width p{
-    color: #4D4726;
+    color: #000000;
     font-size: 12px;
     line-height: 1.5;
     width: 70%;
